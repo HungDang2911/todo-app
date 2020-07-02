@@ -1,0 +1,39 @@
+.todo-header {
+  height: 70px;
+  border-radius: none;
+  display: flex;
+  justify-content: end;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.all-done-btn {
+  flex: 1;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 100;
+  color: #ddd;
+}
+
+.all-done-btn-active {
+  color: #777;
+}
+
+.all-done-disabled {
+  visibility: hidden;
+}
+
+input {
+  flex: 9;
+  padding: 15px;
+  font-size: 23px;
+  float: right;
+  outline: none;
+  border: none;
+}
+
+input::placeholder {
+  font-style: italic;
+  color: #ddd;
+}
